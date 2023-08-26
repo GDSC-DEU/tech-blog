@@ -1,0 +1,57 @@
+---
+layout: page
+title: Members
+permalink: /members/
+---
+
+<head>
+    <style>
+        /* 커스텀 스타일 */
+        .member-list {
+            list-style: none;
+            padding-left: 0;
+        }
+
+        .member-item {
+            padding: 8px;
+            border-bottom: 1px solid #e1e4e8;
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .member-link {
+            color: #0366d6;
+            text-decoration: none;
+            display: flex;
+            align-items: center;
+        }
+
+        .member-avatar {
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            margin-right: 10px;
+        }
+
+        .member-name {
+            font-size: 18px;
+        }
+
+        .member-role {
+            text-align: right;
+            color: gray;
+        }
+    </style>
+</head>
+
+<ul class="member-list">
+    {% for member in site.data.members %}
+    <li class="member-item">
+        <a href="https://github.com/{{ member.github }}" class="member-link">
+            <img src="{{ member.avatar }}" alt="{{ member.name }}" class="member-avatar">
+            <span class="member-name"> {{ member.name }}</span>
+        </a>
+        <span class="member-role"> {{ member.role }}</span>
+    </li>
+    {% endfor %}
+</ul>

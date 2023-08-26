@@ -1,0 +1,31 @@
+- name: 김남주
+  github: cmsong111
+  avatar: https://avatars.githubusercontent.com/u/23499675?v=4
+  role: Lead
+  email: cmsong111@gmail.com
+  description: T자형 개발자를 희망하는 학생입니다.
+
+- name: 박상현
+  github: thelight0804
+  avatar: https://avatars.githubusercontent.com/u/69424845?v=4
+  role: Core
+
+- name: 정민규
+  github: tomorrow9913
+  avatar: https://avatars.githubusercontent.com/u/35493042?v=4
+  role: Core
+
+- name: 정예준
+  github: yejun614
+  avatar: https://avatars.githubusercontent.com/u/31740224?v=4
+  role: Core
+
+- name: 조진혁
+  github: Mina-1316
+  avatar: https://avatars.githubusercontent.com/u/74696602?v=4
+  role: Core
+
+- name: 진희륜
+  github: SerenityS
+  avatar: https://avatars.githubusercontent.com/u/3811039?v=4
+  role: Core
