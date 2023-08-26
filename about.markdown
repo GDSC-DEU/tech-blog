@@ -4,15 +4,14 @@ title: About
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
+<center><img src="https://github.com/GDSC-DEU/tech-blog/blob/main/assets/img/GDSC%20Logo%20chapter.png?raw=true"></center>
 
-You can find the source code for Minima at GitHub:
-[jekyll][jekyll-organization] /
-[minima](https://github.com/jekyll/minima)
+# GDSC DEU 기술블로그에 오신 것을 환영합니다!
 
-You can find the source code for Jekyll at GitHub:
-[jekyll][jekyll-organization] /
-[jekyll](https://github.com/jekyll/jekyll)
+안녕하세요!
 
+우리는 Google Developer Student Clubs Dong Eui 에서 기술블로그를 운영하는 팀입니다.
 
-[jekyll-organization]: https://github.com/jekyll
+이 블로그는 우리 팀 멤버들이 다양한 주제와 기술에 관련한 정보를 공유하고자 만든 공간입니다.
+
+여기에서는 소프트웨어 개발, 프로그래밍, 웹 개발, 모바일 애플리케이션, 데이터 과학, 인공지능, 클라우드 등 다양한 주제에 관한 글을 만날 수 있을 것입니다.
