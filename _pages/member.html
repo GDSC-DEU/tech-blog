@@ -45,13 +45,13 @@ permalink: /members/
 </head>
 
 <ul class="member-list">
-    {% for member in site.data.members %}
+    {% for member_info in site.data.members %}
     <li class="member-item">
-        <a href="https://github.com/{{ member.github }}" class="member-link">
-            <img src="{{ member.avatar }}" alt="{{ member.name }}" class="member-avatar">
-            <span class="member-name"> {{ member.name }}</span>
+        <a href="https://github.com/{{ member_info.github }}" class="member-link">
+            <img src="{{ member_info.avatar }}" alt="{{ member_info.name }}" class="member-avatar">
+            <span class="member-name"> {{ member_info.name }}</span>
         </a>
-        <span class="member-role"> {{ member.role }}</span>
+        <span class="member-role"> {{ member_info.role }}</span>
     </li>
     {% endfor %}
 </ul>

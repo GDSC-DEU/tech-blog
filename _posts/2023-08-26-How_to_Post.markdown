@@ -37,7 +37,7 @@ author: 김남주
    - HTML 문법
 
    ```html
-   <img src='{{ "/assets/img/GDSC Logo chapter.png" }}' />
+   a
    ```
 
 ## 카테고리 추가 하는 방법
