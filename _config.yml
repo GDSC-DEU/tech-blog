@@ -32,7 +32,7 @@ github_username: GDSC-DEU
 
 # Build settings
 theme: minima
-asset_url: /assets
+asset_url: /tech-blog/assets
 plugins:
   - jekyll-feed
 
