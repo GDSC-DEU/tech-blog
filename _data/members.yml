@@ -29,6 +29,11 @@
   github: SerenityS
   avatar: https://avatars.githubusercontent.com/u/3811039?v=4
   role: Core
+  
+- name: 최서윤
+  github: indevruis
+  avatar: https://avatars.githubusercontent.com/u/99643711?v=4
+  role: Core
 
 - name: 김대규
   github: ByeolNabi
@@ -45,10 +50,9 @@
   avatar: https://avatars.githubusercontent.com/u/68728352?v=4
   role: Member
 
-- name: 최서윤
-  github: indevruis
-  avatar: https://avatars.githubusercontent.com/u/99643711?v=4
-  role: Core
+- name: 문예진
+  github: wive10
+  avatar: https://avatars.githubusercontent.com/u/70935978?v=4
   
 - name: 김권수
   github: Kuneosu
