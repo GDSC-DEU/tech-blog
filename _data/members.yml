@@ -53,7 +53,8 @@
 - name: 문예진
   github: wive10
   avatar: https://avatars.githubusercontent.com/u/70935978?v=4
-  
+  role: Member
+
 - name: 김권수
   github: Kuneosu
   avatar: https://avatars.githubusercontent.com/u/66168725?v=4
