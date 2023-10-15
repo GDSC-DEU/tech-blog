@@ -6,7 +6,7 @@ categories: [Flutter]
 author: 진희륜
 ---
 
-![DASH](/assets/img/flutter_dash.png)
+[DASH](https://raw.githubusercontent.com/GDSC-DEU/tech-blog/main/assets/img/flutter_dash.png)
 
 ## 변수(Variable)
 
@@ -105,13 +105,13 @@ author: 진희륜
   - is : 타입 체크
 - 논리 연산자
   - && : AND
-  - || : OR
+  - \|\| : OR
   - ! : bool의 값을 반전
   - ?? : null 확인
 - 비트 및 시프트 연산자
   - `💡 Flutter에서는 거의 사용되지 않으니 있다는 것 정도만 숙지`
   - & : AND
-  - | : OR
+  - \| : OR
   - ^ : XOR
   - << : Shift Left
   - \>\> : Shift Right
@@ -184,8 +184,6 @@ void set(int a) {
   print(product1); // id = 0; name = name
   print(product2): // id = 1; name = T-Shirt
   ```
-
----
 
 - Getter와 Setter
 
@@ -361,11 +359,11 @@ void set(int a) {
   ```dart
   // 아래 for문의 i는 for문 안에서만
   for (int i = 0; i < 10; i++) {
-      print(i); // i가 0, 1, 2 .. 순으로 증가하다가 i가 10이 될 때 반복문 정지
+    print(i); // i가 0, 1, 2 .. 순으로 증가하다가 i가 10이 될 때 반복문 정지
   }
   print(i); <-- 오류
 
-  ---------
+  ...
 
   void main() {
     int i = 0;
