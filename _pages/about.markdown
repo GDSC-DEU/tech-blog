@@ -4,7 +4,7 @@ title: About
 permalink: /about/
 ---
 
-<center><img src= '{{ "/assets/img/GDSC Logo chapter.png" }}'></center>
+<center><img src= '{{ "/assets/img/GDSC Logo chapter.png" | relative_url }}'></center>
 
 # GDSC DEU 기술블로그에 오신 것을 환영합니다!
 
