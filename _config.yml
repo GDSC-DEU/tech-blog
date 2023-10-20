@@ -26,7 +26,7 @@ description: >- # this means to ignore newlines until "baseurl:"
   성장(Grow)을 가치로 다양한 배경과 전공을 가진 학생들이
   모여 기술을 습득하고 지역 공동체에 기여하기 위한 활동을 진행합니다.
 baseurl: "/tech-blog" # the subpath of your site, e.g. /blog
-url: "https://gdsc-deu.github.io/tech-blog" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://gdsc-deu.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 instagram_username: gdsc.deu
 github_username: GDSC-DEU
 
