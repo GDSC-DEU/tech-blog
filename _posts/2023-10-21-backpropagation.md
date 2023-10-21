@@ -15,23 +15,17 @@ author: 장현제
 위와 같이 덧셈 연산에 대한 함수는 q, 곱셈 연산에 대한 함수는 f로 정의하고 시작하자.
 
 ### q함수와 z함수의 연산?
-<p>
-![backpropagation](./assets/img/AI/identify.png)
-![backpropagation](./assets/img/AI/dfdz.png)
-![backpropagation](./assets/img/AI/dfdq.png)
-</p>
+![identify](./assets/img/AI/identify.png) | ![df/dz](./assets/img/AI/dfdz.png) | ![df/dq](./assets/img/AI/dfdq.png)
+
 위의 이미지들에서, 제일 왼쪽 이미지는 df/df, 즉 자기 자신에 대해 미분을 하는 것이기 때문에 identify function이 되고 그 값은 1이다.
 그 다음으로는 df/dz인데 이는 q = x + y 이므로, 3임을 알 수 있다.
 이때 3이라는 값의 의미는 z의 값을 임의의 숫자 h만큼 증가 시키게 되면 f의 값은 3h만큼 증가한다는 뜻이다. 즉, 3배만큼 영향력을 주고 있다고 생각하면 된다.
 마지막 이미지에서 df/dq를 구하는데 이는 z이므로 -4이다.
 
 ### chain rule
-<p>
-![backpropagation](./assets/img/AI/dfdy.png)
-![backpropagation](./assets/img/AI/dfdx.png)
-</p>
-이제 구해야 할 것들은 df/dx와 df/dy인데, 이는 Chain rule(연쇄법칙 or 합성 함수의 미분)을 이용하여 구할 수 있다.
+![df/dy](./assets/img/AI/dfdy.png) | ![df/dx](./assets/img/AI/dfdx.png)
 
+이제 구해야 할 것들은 df/dx와 df/dy인데, 이는 Chain rule(연쇄법칙 or 합성 함수의 미분)을 이용하여 구할 수 있다.
 이때 연쇄 법칙에서 dq/dy와 같은 값들은 우리가 구하려고 하는 직접적인 gradient 값이기 때문에 local gradient라고 하고, df/dq 같은 값들은 global gradient라고 한다.
 
 ## 정리
