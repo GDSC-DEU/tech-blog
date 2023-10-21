@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "인공지능 - Backpropagation 기법"
-date: 2023-10-21 16:00:00 +0900
+date: 2023-10-21 15:30:00 +0900
 categories: [AI]
 author: 장현제
 ---
