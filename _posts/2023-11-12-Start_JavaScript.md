@@ -10,11 +10,11 @@ author: 박소은
 
 1. 자바스크립트는 **사용자와 상호작용**을 하는 언어이다.
 즉, **동적**이다 (HTML은 정적이다)
-</br>
+
 1. 웹브라우저는 한번 화면에 출력되면 자기 자신을 바꿀 수 없다.  
 그러나 JavaScript를 이용한다면 JavaScript 코드에 따라서 변화가 일어난다.
-    
-    → 이것이 **'JavaScript가 HTML을 제어하는 언어다’** 는 정의를 내리는 이유다.
+→ 이것이 **'JavaScript가 HTML을 제어하는 언어다’** 는 정의를 내리는 이유다.
+
 ---
 
 #### 1. `<script>`와 `</script>`
@@ -32,15 +32,14 @@ author: 박소은
 
 **`<script>`** 태그는 안쪽에 **JavaScript**가 오도록 약속되어있다.
 웹브라우저는 **`<script>`** 안에 있는 코드를 **JavaScript**로 해석한다.
-<br>
-그렇다면 JavaScript 와 HTML로 작성한 것은 무슨 차이가 있는가?
 
+그렇다면 JavaScript 와 HTML로 작성한 것은 무슨 차이가 있는가?
 <img src="https://luxuriant-grapple-a75.notion.site/image/https%3A%2F%2Fprod-files-secure.s3.us-west-2.amazonaws.com%2Ff85c45c8-aa3f-4984-ad74-ece7aa08b1b1%2F5498f1ef-2fa6-4426-8f68-7c9da70f5c61%2FUntitled.png?table=block&id=42d3400d-93f4-42af-9144-460e761d2ae1&spaceId=f85c45c8-aa3f-4984-ad74-ece7aa08b1b1&width=880&userId=&cache=v2" width="350">
 
 분명 둘 다 ‘1+1'을 적어주었지만 HTML에서는 문자 그대로, JavaScript에서는 ‘1+1’이 계산된 값인 2가 출력이 된다.
 
 이것은 JavaScript은 동적, HTMl은 정적이라는 것을 잘 보여주는 예시이다.
-</br>
+
 
 #### 2. `<input>`
 ```jsx
@@ -65,7 +64,7 @@ author: 박소은
 **onclick**은?
 - **onclick**의 속성값으로는 반드시 JavaScript가 와야한다.
 - **onclick**의 속성의 속성 값은 웹브라우저가 기억하고 있다가 **onclick**의 속성이 위치하고 있는 태그를 클릭했을 때 JavaScript 코드를 JavaScript 문법에 따라 해석해 거기 적혀 있는대로 동작할 것이다.
-</br>
+
 즉, 우리가 hi의 버튼을 클릭한다면 onclick안에 적혀있는 JavaScript 코드에 따라 실행된다.
 
 ```jsx
@@ -73,15 +72,13 @@ author: 박소은
 ```
 <input type="button" value="버튼을 만들었다!" onclick="alert('버튼을 눌렀다!')">
 
-##### 이와 같이 웹브라우저 위에서 일어나는 일들을 event(이벤트)라고 한다.
+이와 같이 웹브라우저 위에서 일어나는 일들을 event(이벤트)라고 한다.
 
 ---
 
 ### 이벤트(event)
 - 무수히 많은 이벤트들이 존재
 - 이벤트들로 사용자들과 상호작용하는 코드를 만들 수 있음
-
-</br>
 
 #### 1. text
 
@@ -116,11 +113,11 @@ text 속성안에서 down key를 누르면 이벤트가 발생한다.
 <body>
 		<input type="text" onkeydown="alert('key down!!')">
 </body>
-<p style="margin-top:70px;"> 
+
 
 ---
 
-### **Console**
+### Console
 
  ✔️ Console을 통해서 JavaScript 코드를 실행하게 한다면 해당 웹페이지를 대상으로 JavaScript 코드가 실행된다.
 
@@ -136,4 +133,5 @@ text 속성안에서 down key를 누르면 이벤트가 발생한다.
 
 <img src="https://luxuriant-grapple-a75.notion.site/image/https%3A%2F%2Fprod-files-secure.s3.us-west-2.amazonaws.com%2Ff85c45c8-aa3f-4984-ad74-ece7aa08b1b1%2F1dac060b-059e-4cb5-993b-f017483f9fd4%2FUntitled.png?table=block&id=f6f97c1f-e4c8-43f6-a2ec-9c8729462a66&spaceId=f85c45c8-aa3f-4984-ad74-ece7aa08b1b1&width=770&userId=&cache=v2" width=350>
 
-#### 이곳에서 우리는 나의 필요에 따라서 코드를 작성하여 실행할 수 있다.
+
+이곳에서 우리는 나의 필요에 따라서 코드를 작성하여 실행할 수 있다.
