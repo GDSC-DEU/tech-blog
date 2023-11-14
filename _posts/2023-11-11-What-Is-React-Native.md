@@ -6,7 +6,7 @@ categories: [Frontend]
 author: 박상현
 ---
 <div style="text-align: center;">
-  <img src="./../assets/img/2023-11-11-What-Is-React-Native/page-cover.png" alt="Page Cover" style="height: 300px;">
+  <img src="https://raw.githubusercontent.com/GDSC-DEU/tech-blog/main/assets/img/2023-11-11-What-Is-React-Native/page-cover.png" alt="Page Cover" style="height: 300px;">
 </div>
 
 # React Native란?
@@ -18,7 +18,7 @@ React Native는 React와 앱 플랫폼의 네이티브 기능을 사용하여 An
 ## Views와 모바일 개발
 View는 화면에서 텍스트, 이미지를 표시하거나 사용자 입력에 반응할 수 있는 작은 사각형으로, UI의 기본적인 구성 요소입니다.
 <div style="text-align: center;">
-  <img src="./../assets/img/2023-11-11-What-Is-React-Native/react-native-view.png" alt="Page Cover" style="height: 300px;">
+  <img src="https://raw.githubusercontent.com/GDSC-DEU/tech-blog/main/assets/img/2023-11-11-What-Is-React-Native/react-native-view.png" alt="Page Cover" style="height: 300px;">
 </div>
 예를 들어서 텍스트 한 줄이나 버튼 모두 View의 한 종류입니다. ViewGroup과 같이 다른 View를 포함하는 View도 있습니다.
 
@@ -38,13 +38,13 @@ React Native에서 사용할 수 있는 여러 Core Component가 있습니다. �
 
 아래 코드를 확인하고 실행 해 보세요.
 
-<iframe width="80%" height="700" src="https://snack.expo.dev/FrgflBgIE" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="100%" height="700" src="https://snack.expo.dev/FrgflBgIE" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ## 바로 시작해볼까?
 React Native를 시작하기에 앞서 React에 대해서 알고 계신가요?
 React Native는 React에서 사용하는 Component와 같은 구조를 사용하기 때문에, React의 지식 없이 React Native를 바로 학습하기는 어렵습니다.
 <div style="text-align: center;">
-  <img src="./../assets/img/2023-11-11-What-Is-React-Native/components.png" alt="Page Cover" style="height: 300px;">
+  <img src="https://raw.githubusercontent.com/GDSC-DEU/tech-blog/main/assets/img/2023-11-11-What-Is-React-Native/components.png" alt="Page Cover" style="height: 300px;">
 </div>
 위 사진 처럼 React Native는 React 안에 포함되어 있습니다.
 만약 React에 대해 잘 알지 못한다면 React 먼저 공부하고 React Native를 사용하는 것을 추천합니다.
